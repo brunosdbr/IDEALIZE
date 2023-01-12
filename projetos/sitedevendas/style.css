@@ -122,12 +122,12 @@ footer > p {
         padding-left: 10px;
     }
     main{
-        background-color: rgb(243, 243, 243);
+        background-color: rgb(71, 65, 65);
         margin-top: -50px;
         margin-left: 70px;
         border-radius: 10px;
         width: 90vw;
-        height: 80vh;
+        height: 60vh;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
     }
     main > h1 {
