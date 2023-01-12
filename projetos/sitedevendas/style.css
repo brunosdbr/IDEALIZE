@@ -12,6 +12,11 @@ header{
     height: 170px;
     background-color: rgb(41, 41, 44);
 }
+header > nav{
+    width: 300px;
+    height: 10px;
+    padding-top: 20px;
+}
 header > nav > a{
     text-align: center;
     text-decoration: none;
@@ -27,9 +32,14 @@ header > nav > a:hover{
     color: black;
     transition-duration: 0.5s;}
 nav{
-    padding-top: 10px;
+    padding-top: 15px;
 }
 header > menu{
+    padding-top: -5px;
+    position: absolute;
+    left: 80%;
+    width: 200px;
+    height: 10px;
     text-align: right;
     margin-left: 10px;
 }
