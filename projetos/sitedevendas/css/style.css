@@ -26,17 +26,19 @@ header {
     align-items: center;
 }
 .nav-list ul {
+    cursor: pointer;
     display: flex;
     justify-content: center;
     list-style: none;
 }
 .nav-list ul li a:hover{
+    cursor: pointer;
+    margin: 0px 10px 0 10px;
     background-color: #fff;
     border-radius: 15px;
     width: 200px;
     height: 30px;
     color: #24252a;
-
 }
 .nav-item {
     margin: 0 15px;
@@ -61,12 +63,18 @@ header {
 .mobile-menu {
     display: none;
 }
-.main{
+.main main {
     position: absolute;
+    display: block;
     width: 80vw;
     width: 70vh;
     background-color: rgb(90, 84, 84);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
+}
+footer{
+    text-align: center;
+    color: #6b6b6b;
+    margin-top: 98%;
 }
 
 @media screen and (max-width: 730px) {
