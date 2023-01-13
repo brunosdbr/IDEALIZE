@@ -39,7 +39,15 @@ header {
     color: #fff;
     font-weight: 400;
 }
-.login-button button {
+.login-button a { /*configuração menu de icones de redes cociais*/
+    margin: 15px;
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    float: right;
+}
+/*.login-button button {
     border: none;
     padding: 10px 15px;
     border-radius: 5px;
@@ -50,7 +58,7 @@ header {
     color: #fff;
     font-weight: 500;
     font-size: 1.1rem;
-}
+}*/
 .mobile-menu-icon {
     display: none;
 }
