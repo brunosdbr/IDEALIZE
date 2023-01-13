@@ -69,7 +69,7 @@
         margin-left: 70px;
         border-radius: 10px;
         width: 90vw;
-        height: 76vh;
+        height: 77vh;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
     }
     main > h1 {
@@ -94,7 +94,7 @@
     }
 }
 
-@media screen and (min-width: 0px) and (max-width: 600px){/*celular*/
+@media screen and (min-width: 320px) and (max-width: 600px){/*celular*/
     header {
         width: 100vw;
         height: 100px;
