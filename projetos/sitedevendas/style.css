@@ -66,9 +66,9 @@
     main{
         background-color: rgb(243, 243, 243);
         margin-top: -50px;
-        margin-left: 70px;
+        margin-left: 130px;
         border-radius: 10px;
-        width: 90vw;
+        width: 80vw;
         height: 77vh;
         box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.199);
     }
@@ -78,14 +78,14 @@
         text-align: center;
         padding-top: 10px;
     }
-    main > img {
+    main > div > img {
+        background-position: center center;
+        background-size: cover;
         position: absolute;
         left: 45%;
         top: 40%;
         text-align: center;
         border-radius: 50%;
-        width: 200px;
-        height: 200px;
     }
     footer > p {
         text-align: center;
@@ -137,7 +137,7 @@
         padding-top: 15px;
     }
     menu{
-        displ
+        
     }
     header > menu {
         position: absolute;
@@ -168,13 +168,13 @@
         padding-top: 10px;
     }
     main > img {
+        background-attachment: scroll;
         position: absolute;
         left: 32%;
         top: 40%;
         text-align: center;
         border-radius: 50%;
-        width: 200px;
-        height: 200px;
+    
     }
     footer > p {
         font-size: 8pt;
