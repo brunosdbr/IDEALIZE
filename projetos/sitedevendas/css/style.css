@@ -30,6 +30,14 @@ header {
     justify-content: center;
     list-style: none;
 }
+.nav-list ul li a:hover{
+    background-color: #fff;
+    border-radius: 15px;
+    width: 200px;
+    height: 30px;
+    color: #24252a;
+
+}
 .nav-item {
     margin: 0 15px;
 }
@@ -47,23 +55,18 @@ header {
     list-style: none;
     float: right;
 }
-/*.login-button button {
-    border: none;
-    padding: 10px 15px;
-    border-radius: 5px;
-    background-color: #0187a7;
-}
-.login-button button a {
-    text-decoration: none;
-    color: #fff;
-    font-weight: 500;
-    font-size: 1.1rem;
-}*/
 .mobile-menu-icon {
     display: none;
 }
 .mobile-menu {
     display: none;
+}
+.main{
+    position: absolute;
+    width: 80vw;
+    width: 70vh;
+    background-color: rgb(90, 84, 84);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.37);
 }
 
 @media screen and (max-width: 730px) {
