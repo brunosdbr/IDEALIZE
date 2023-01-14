@@ -9,12 +9,24 @@
     --cor01: #fff;
     --cor02: #24252a;
     --cor03: #464646;
-    --cor04: #02cebd;
+    --cor04: #f3f3f3;
+
+    --cor05: #01261F;
+    --cor06: #20594F;
+    --cor07: #88BFB5;
+    --cor08: #F2620F;
+    --cor09: #F2541B;
+
+    --cor10: #810c5a;
+    --cor11: #08b825;
 }
 
 header {
-    background-color: #24252a;
+    background-color: var(--cor05);
     box-shadow: 0px 3px 10px #464646;
+    position: fixed;
+    width: 100vw;
+    
 }
 .nav-bar {
     display: flex;
@@ -26,7 +38,7 @@ header {
     align-items: center;
 }
 .logo h1 {
-    color: #fff;
+    color: var(--cor07);
 }
 .nav-list {
     display: flex;
@@ -61,6 +73,15 @@ header {
     list-style: none;
     float: right;
 }
+#social1:hover{
+color: var(--cor11);
+}
+#social2:hover{
+    color: var(--cor10);
+}
+#social3:hover{
+    color: var(--cor07);
+    }
 .mobile-menu-icon {
     display: none;
 }
@@ -68,13 +89,23 @@ header {
     display: none;
 }
 .main{
-    background-color: #02cebd;
+    background-color: var(--cor04);
+    background-size: cover;
     position: absolute;
-    left: 10%;
-    width: 80vw;
-    height: 80vh;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.384) ;
+    top: 20%;
+    left: 15%;
+    width: 70vw;
+    height: 100vh;
     border-radius: 10px;
-
+}
+.main > h1{
+    text-align: center;
+}
+.main > p{
+    text-align: justify;
+    padding-left: 10px;
+    margin-right: 10px;
 }
 footer{
     position: absolute;
@@ -121,5 +152,42 @@ footer{
     }
     .open {
         display: block;
+    }
+    .main{
+        background-color: var(--cor04);
+        display: inline;
+        background-size: cover;
+        position: absolute;
+        box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.384) ;
+        top: 20%;
+        left: 15%;
+        width: 70vw;
+        height: 100vh;
+        border-radius: 10px;
+    }
+    .main > h1{
+        font-size: 12pt;
+        text-align: center;
+        padding-top: 10px;
+    }
+    .main > p{
+        font-size: 11pt;
+        font-weight: 100;
+        padding-top: 10px;
+        text-align: justify;
+        padding-left: 10px;
+        margin-right: 10px;
+    }
+    footer{
+        width: 100vw;
+        background-color: rgb(0, 0, 0);
+        color: var(--cor04);
+        display: flex;
+        font-size: 8pt;
+        position: absolute;
+        left: 30%;
+        top: 100%;
+        text-align: center;
+        color: #6b6b6b;
     }
 }
