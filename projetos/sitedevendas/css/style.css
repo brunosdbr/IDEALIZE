@@ -61,10 +61,21 @@ header {
 .mobile-menu {
     display: none;
 }
+.main{
+    background-color: aqua;
+    position: absolute;
+    left: 10%;
+    width: 80vw;
+    height: 80vh;
+    border-radius: 10px;
+
+}
 footer{
+    position: absolute;
+    left: 30%;
+    top: 90%;
     text-align: center;
     color: #6b6b6b;
-    margin-top: 98%;
 }
 
 @media screen and (max-width: 730px) {
