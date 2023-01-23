@@ -25,10 +25,20 @@ body{
 .logo h1{
     color: rgb(0, 0, 0) ;
 }
+.menu2{
+    display: none;
+}
 .menu a{
     color: rgb(0, 0, 0);
     padding-left: 10px;
 }
+.burger-menu{
+    display: none;
+}
+.fechar{
+    display: none;
+}
+
 .linha-horizontal{
     width: 90vw;
     height: 2px;
@@ -44,6 +54,7 @@ body{
     margin-right: 10px;
 }
 .home-page p{
+    display: none;
     color: rgb(0, 0, 0);
     display: flex;
     width: 400px;
@@ -68,4 +79,45 @@ body{
     text-align: justify;
     padding-top: 30px; 
     margin: auto;
+}
+@media screen and (max-width: 667px) {
+    .menu{
+        display: none;
+    }
+    .burger-menu{
+        display: flex;
+    }
+    .linha-horizontal{
+        width: 90vw;
+        height: 2px;
+        background-image: linear-gradient(45deg, rgb(110, 3, 3), rgb(153, 51, 51), rgb(231, 59, 59));
+        margin: auto;
+        margin-bottom: 20px;
+    }
+    .art-1 img{
+        width: 300px;
+        padding: 10px;
+    }
+    .home-page{
+        background-color: rgb(255, 255, 255);
+        width: 80vw;
+        display: block;
+        margin-right: 10px;
+    }
+    .home-page p{
+        font-size: 10pt;
+        color: rgb(0, 0, 0);
+        display: block;
+        width: 300px;
+        height: 600px;
+        text-align: justify;
+    }
+    .contact-page p{
+        color: rgb(0, 0, 0);
+        width: 80vw;
+        text-align: justify;
+        font-size: 10pt;
+        padding-top: 30px; 
+        margin: auto;
+    }
 }
