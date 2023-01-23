@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Meu Portfólio</title>
+    <link rel="stylesheet" href="estilo.css">
+  </head>
+  <body>
+    <header>
+      <h1>Meu Portfólio</h1>
+      <nav>
+        <ul>
+          <li><a href="#sobre">Sobre</a></li>
+          <li><a href="#projetos">Projetos</a></li>
+          <li><a href="#contato">Contato</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section id="sobre">
+        <h2>Sobre mim</h2>
+        <p>Informações sobre mim e minhas habilidades</p>
+      </section>
+      <section id="projetos">
+        <h2>Meus projetos</h2>
+        <ul>
+          <li>
+            <h3>Nome do projeto 1</h3>
+            <p>Descrição do projeto 1</p>
+            <a href="#">Link para o projeto 1</a>
+          </li>
+          <li>
+            <h3>Nome do projeto 2</h3>
+            <p>Descrição do projeto 2</p>
+            <a href="#">Link para o projeto 2</a>
+          </li>
+        </ul>
+      </section>
+      <section id="contato">
+        <h2>Entre em contato</h2>
+        <form action="enviar-mensagem.php" method="post">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome"><br>
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email"><br>
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem"></textarea><br>
+          <input type="submit" value="Enviar">
+        </form>
+      </section>
+    </main>
+    <footer>
+      <p>Copyright © 2021 Meu Nome</p>
+    </footer>
+  </body>
+</html>
+
+

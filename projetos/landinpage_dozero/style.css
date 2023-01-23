@@ -12,28 +12,20 @@
     text-decoration: none;
     font-family: 'Poppins', sans-serif;
 }
-.central{
-background: var(--cor01);
-width: 100vw;
+.container{
+    display: flex;
+    justify-content: space-between;
+    background-color: var(--cor01);
+    align-items: center;
+    padding: 10px;
 }
 .logo{
-    display: flex;
-    width: 100px;
-    height: 50px;
-    color: var(--cor00);
-    padding: 25px 0 0 10px;
-}
-.menu{
-    width: 300px;
-    height: 20px;
-}
-.menu a{
-    position: relative;
-    padding-left: 10px;
-    left: 70%;
-    display: inline-flex;
     color: var(--cor00);
 }
-.menu a:hover{
+.menu-bar a{
+    color: var(--cor00);
+    padding-right: 10px;
+}
+.menu-bar a:hover{
     color: var(--cor02);
 }
