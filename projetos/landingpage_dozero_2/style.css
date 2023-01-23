@@ -1,28 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&display=swap');
+
 *{
     padding: 0;
     margin: a;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family:  'Poppins', sans-serif;
     list-style: none;
     text-decoration: none;
 }
 body{
-    background-color: black;
+    background-color: rgb(255, 255, 255);
 }
 .container{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 0 10px 0 10px;
+    padding: 0 20px 0 20px;
 }
 .logo h1{
-    color: #fff ;
+    color: rgb(0, 0, 0) ;
 }
 .menu a{
-    color: azure;
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
 }
 .linha-horizontal{
     width: 90vw;
     height: 2px;
-    background-color: brown;
+    background-image: linear-gradient(45deg, rgb(110, 3, 3), rgb(153, 51, 51), rgb(231, 59, 59));
+    margin: auto;
+}
+.home-page p{
+    display: flex;
+    width: 600px;
+    height: 600px;
+    margin-top: -300px;
+    margin-left: 600px;
+    text-align: justify;
+}
+.art-1 img{
+    width: 500px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+.about-page{
+    background-color: black;
+    width: 100vw;
+    height: 600px;
+}
+.contact-page p{
+    width: 80vw;
+    text-align: justify;
+   padding-top: 20px; 
     margin: auto;
 }
