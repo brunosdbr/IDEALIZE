@@ -27,12 +27,17 @@ body{
 }
 .menu a{
     color: rgb(0, 0, 0);
-    padding-left: 10px;
+    padding-left: 0 5px 0 5px;
+    margin: 0 5px 0 5px;
 }
-.burger-menu{
-    display: none;
+.menu a:hover{
+    background-image: linear-gradient(90deg, rgb(110, 3, 3), rgb(153, 51, 51), rgb(231, 59, 59));
+    border-radius: 10px;
+    color: #fff;
+    text-align: center;
+    transition: .5s;
 }
-.fechar{
+.menu-icon{
     display: none;
 }
 .linha-horizontal{
@@ -62,19 +67,12 @@ body{
     padding-left: 10px;
 }
 .about-page{
-    background-color: rgba(0, 0, 0, 0.315);
-    width: 80vw;
-    height: 600px;
+    
 }
 .contact-page{
-    background-color: #fff;
+    
 }
 .contact-page p{
-    color: rgb(0, 0, 0);
-    width: 80vw;
-    text-align: justify;
-    padding-top: 30px; 
-    margin: auto;
 }
 #nav{
     display: none;
@@ -142,9 +140,7 @@ body{
       top: -7px;
     }
     #nav #menu li a:hover{
-        background-color: aqua;
-        width: 80px;
-        height: 3px;
+        
 
     }
     .home-page{
