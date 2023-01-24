@@ -1,7 +1,3 @@
-function clicarOpen(){
-    menu.style.display = 'block'
-  
-}
-function clicarClose(){
-    menu.style.display = 'none'
-}
+$('.btn').click(function () {
+    $(this).toggleClass('active');
+  });
