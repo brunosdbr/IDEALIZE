@@ -11,7 +11,7 @@ body{
     background-color: rgb(255, 255, 255);
 }
 .central{
-    background-color: rgba(0, 0, 0, 0.842);
+    background-color: rgba(0, 0, 0, 0.274);
     margin-top: 20px;
     margin: auto;
     width: 80vw;
@@ -38,31 +38,31 @@ body{
 .linha-horizontal{
     width: 90vw;
     height: 2px;
-    background-image: linear-gradient(45deg, rgb(110, 3, 3), rgb(153, 51, 51), rgb(231, 59, 59));
+    background-image: linear-gradient(90deg, rgb(110, 3, 3), rgb(153, 51, 51), rgb(231, 59, 59));
     margin: auto;
     margin-bottom: 20px;
 }
 .home-page{
     background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    margin-top: 40px;
     width: 80vw;
     display: flex;
-    align-items: center;
     margin-right: 10px;
 }
-.home-page p{
-    display: none;
+.home-page > p{
     color: rgb(0, 0, 0);
-    display: flex;
     width: 400px;
     height: 600px;
     text-align: justify;
+    margin-top: -10px;
 }
 .art-1 img{
     width: 500px;
-    padding: 10px;
+    padding-left: 10px;
 }
 .about-page{
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.315);
     width: 80vw;
     height: 600px;
 }
@@ -140,6 +140,12 @@ body{
     #nav.active #hamburger::after {
       transform: rotate(-135deg);
       top: -7px;
+    }
+    #nav #menu li a:hover{
+        background-color: aqua;
+        width: 80px;
+        height: 3px;
+
     }
     .home-page{
         background-color: rgb(255, 255, 255);
